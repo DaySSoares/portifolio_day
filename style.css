@@ -13,12 +13,30 @@ body{
   height: 100vh; 
 }
 
+.btn-contato button{
+  margin: 40px;
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #8d3f5f;
+  color: rgb(255, 255, 255);
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.flex{
+  display: flex;
+}
+
 .interface{
   max-width:  1280px;
   margin: 0 auto;
 }
 
 /* estilo do cabeçario */
+
+
 
 header{
   padding: 40px 4%;
@@ -37,6 +55,7 @@ header a{
   transition: 0.2s;
   font-weight: 780;
   font-size: 20px;
+  
 
 }
 
@@ -55,7 +74,8 @@ header nav ul li{
   padding: 0 40px;
 }
 
-header .btn-contato button{
+.btn-contato button{
+  margin: 40px;
   padding: 10px 40px;
   font-size: 18px;
   font-weight: 600;
@@ -66,11 +86,36 @@ header .btn-contato button{
   cursor: pointer;
 }
 
-header .btn-contato button:hover{
+.btn-contato button:hover{
   box-shadow: 0px 0px 8px #743d6c;
 }
 
 header2{
   font-size: 50px;
   font-weight: 500;
+}
+
+/* ESTILO DO TOPO DO SITE */
+
+section.topo-do-site {
+  padding: 40px 4%;
+}
+
+section.topo-do-site.flex{
+  align-items: center;
+  justify-content: center;
+}
+
+.topo-do-site h1{
+  margin: 40px;
+  color: #944163;
+  font-size: 42px;
+  line-height: 40px;
+}
+
+.topo-do-site p{
+  margin: 40px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
 }
